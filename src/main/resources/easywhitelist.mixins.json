@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "su.rico040.easywhitelist.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ServerOpListMixin",
+    "UserBanListMixin",
+    "UserWhiteListMixin"
+  ],
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
